@@ -13,7 +13,7 @@ It is **your entire responsibility** to check the license of each font you downl
 ### Installation
 
 ```sh
-pip install git+https://github.com/xoolive/font_dl
+pip install git+https://github.com/xoolive/font-dl
 ```
 
 ### Usage
