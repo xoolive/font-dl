@@ -32,9 +32,9 @@ def main():
             shutil.rmtree(dirname)
         os.mkdir(dirname)
 
-        for tree in content:
-            get_font_files(tree, topurl, dirname)
-            decode_fonts(tree, dirname)
+        for doc in content:
+            get_font_files(doc['content'], doc['topurl'], dirname)
+            decode_fonts(doc['content'], dirname)
 
         convert_fonts(dirname)
 
